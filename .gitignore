@@ -1,0 +1,44 @@
+# Maven build output and compiled Java files
+/target/
+*.class
+*.log
+
+# Local JavaFX SDKs (dependencies are managed by Maven)
+/fxlib/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# The Maven Wrapper files in .mvn/wrapper/ must be committed.
